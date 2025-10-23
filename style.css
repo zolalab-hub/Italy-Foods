@@ -1,17 +1,49 @@
-html{
-    padding: 0;
-    margin: 0;
-    background-attachment: fixed;
-    background-size: cover;
+#navbar{
+    background-color: #003870;
+    padding: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
-
+#home{
+    display: flex;
+}
+#home img{
+    width: 35vw;
+    height: 40vh;
+    padding: 1%;
+    margin: auto;
+}
+#home .header{
+    justify-content: center;
+    margin: auto;
+}
 img{
     height: auto;
     width: 300px;
     margin: 0 0 0 0;
     box-sizing: border-box;
 }
-ul{
+
+nav ul{
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
     padding: 10px;
     margin: auto;
+}
+#testimonials{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 20px auto;
+}
+#testimonials div{
+    padding: 1%;
+}
+.header{
+    text-align: center;
+    margin: 20px auto;
+}
+nav ul a{
+    color: white;
+    text-decoration: none;
 }
